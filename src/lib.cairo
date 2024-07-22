@@ -1,1 +1,2 @@
-mod StarkCity;
+mod BlueSeaToken;
+mod BlueSeaReward;

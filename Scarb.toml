@@ -1,5 +1,5 @@
 [package]
-name = "citiverse_nft"
+name = "bluesea_contract"
 version = "0.1.0"
 edition = "2023_11"
 cairo-version = "2.6.4"
@@ -13,5 +13,3 @@ snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag 
 openzeppelin = { git = "https://github.com/OpenZeppelin/cairo-contracts.git", tag = "v0.14.0" }
 
 [[target.starknet-contract]]
-sierra = true
-casm = false
