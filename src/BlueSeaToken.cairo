@@ -2,7 +2,7 @@
 // Compatible with OpenZeppelin Contracts for Cairo ^0.14.0
 
 #[starknet::contract]
-mod BlueSea {
+mod BlueSeaToken {
     use openzeppelin::token::erc20::ERC20Component;
     use openzeppelin::token::erc20::ERC20HooksEmptyImpl;
     use starknet::ContractAddress;

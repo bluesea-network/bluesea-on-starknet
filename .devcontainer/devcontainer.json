@@ -10,7 +10,8 @@
       "extensions": [
         "ms-python.python",
         "starkware.cairo1",
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "shd101wyy.markdown-preview-enhanced"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "zsh"

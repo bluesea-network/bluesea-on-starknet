@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 use core::hash::{Hash, HashStateTrait, HashStateExTrait};
 use core::poseidon::PoseidonTrait;
 use openzeppelin::utils::cryptography::snip12::{StructHash, OffchainMessageHash, SNIP12Metadata};

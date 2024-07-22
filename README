@@ -1,0 +1,21 @@
+BlueSEA Cairo SmartContract
+===
+
+1. Setup Account
+
+```
+sncast account add --name <deployer> --address <account_address> --type argent --private-key <private_key> --add-profile sepolia
+```
+
+2. Declare Contract
+
+```
+sncast -p sepolia declare --contract-name BlueSeaToken
+sncast -p sepolia declare --contract-name BlueSeaReward
+```
+
+3. Deploy Contract
+
+```
+sncast -p sepolia deploy --class-hash <class_hash> -c <list_params>
+```
