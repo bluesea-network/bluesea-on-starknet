@@ -19,3 +19,7 @@ sncast -p sepolia declare --contract-name BlueSeaReward
 ```
 sncast -p sepolia deploy --class-hash <class_hash> -c <list_params>
 ```
+
+### Current deployment on Sepolia
+- BlueSeaToken: [0x0711b26954f9a844b066ef094fc439b211398afc2be39b63e14908e86444b150](https://sepolia.starkscan.co/token/0x0711b26954f9a844b066ef094fc439b211398afc2be39b63e14908e86444b150)
+- BlueSeaReward: [0x0686d1544a0926fff8f2773f50d307c8e69c081e8668e13c49318a77b0f91f7f](https://sepolia.starkscan.co/token/0x0686d1544a0926fff8f2773f50d307c8e69c081e8668e13c49318a77b0f91f7f)
